@@ -17,7 +17,7 @@
     }
 </script>
 
-<h1 class="text-xl font-bold">How Zero-Kowldge Proofs Work</h1>
+<h1 class="text-xl font-bold">How Zero-Kowldge Proof Works</h1>
 
 <div class="mt-6">
     <div>

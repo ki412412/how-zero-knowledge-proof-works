@@ -1,7 +1,6 @@
-# how-zero-knowledge-proofs-work
+# how-zero-knowledge-proof-works
 
-Demonstration of how zero-knowledge proofs work with interactive examples.
-
+Demonstration of zero knowledge proof using a simple example.
 ```bash
 npm install
 npm run dev
