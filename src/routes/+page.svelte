@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { writable } from "svelte/store";
 
-
-    // Step
     const a = writable(3); // secret(private key)
     const g = writable(3);
     const q = writable(200);
@@ -13,14 +11,13 @@
     const c = writable(3);
     const s = writable(0);
 
-    // mutator
     $: {
         $h = ($g**$k) % $p;
         $s = (($a * $c) + $k) % $q;
     }
 </script>
 
-<h1 class="text-lg font-bold">Public Key - Private Key</h1>
+<h1 class="text-lg font-bold">How Zero-Kowldge Proofs Work</h1>
 
 <div class="mt-6">
     <div>
