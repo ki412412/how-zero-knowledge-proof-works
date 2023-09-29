@@ -1,4 +1,5 @@
 # how-zero-knowledge-proof-works
+![Screenshot](screenshot.png)
 
 Demonstration of zero knowledge proof using a simple example.
 ```bash
