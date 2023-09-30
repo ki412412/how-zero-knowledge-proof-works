@@ -29,7 +29,7 @@
 <div class="flex gap-6 h-screen">
     
     <!-- Alice -->
-    <div class="bg-gray-50 rounded-md p-3 shadow-lg border min-w-[30rem]">
+    <div class="bg-gray-50 rounded-md p-3 shadow-lg border min-w-[30rem] h-fit">
         <h2 class="text-lg text-center">Alice</h2>
 
         <div class="h-10 mt-3">
@@ -81,7 +81,7 @@
     </div>
 
     <!-- Bob -->
-    <div class="bg-gray-50 rounded-md p-3  shadow-lg border min-w-[30rem]">
+    <div class="bg-gray-50 rounded-md p-3  shadow-lg border min-w-[30rem] h-fit">
         <h2 class="text-lg text-center">Bob</h2>
 
         <div class="h-10 mt-3"></div>
@@ -112,7 +112,7 @@
                 
             </div>
             <!-- Step5 -->
-            <div class="mt-6 h-24">
+            <div class="mt-6 h-30">
                 <div class="font-semibold">Step 5: Bob checks that</div>
                 <div class="mt-3 pl-6">
                     <div>g^s ≡ (PK)^c * h mod p</div>
