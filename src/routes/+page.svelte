@@ -118,7 +118,7 @@
                 <div class="mt-3 pl-6">
                     <div>g^s ≡ (PK)^c * h mod p</div>
                     <div class="text-gray-400">g^s ≡ (g^a)^c * h mod p</div>
-                    <div class="text-gray-400">{$g} ^ {$s} % {$p} ≡ ({$g} ^ {$a}) ^ {$c} * {$h} mod {$p}</div>
+                    <div class="text-gray-400">{$g}^{$s}≡({$g}^{$a})^{$c} * {$h} mod {$p}</div>
                     <div class="text-gray-400">{($g**$s)} ≡ {((($g**$a)**$c) * $h)} mod {$p}</div>
                     <div class="text-gray-400">{($g**$s) % $p} = {((($g**$a)**$c) * $h) % $p}</div>
                 </div>
